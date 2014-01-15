@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WTViewController.h
 //  Wheely_Test
 //
 //  Created by Irina Didkovskaya on 1/10/14.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Item.h"
 
-@interface ViewController : UIViewController
-
+@interface WTDetailViewController : UIViewController
+@property (nonatomic, strong) Item *item;
 @end

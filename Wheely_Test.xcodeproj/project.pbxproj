@@ -14,13 +14,25 @@
 		7294EAE31880338D00F614D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EAE21880338D00F614D5 /* main.m */; };
 		7294EAE71880338D00F614D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EAE61880338D00F614D5 /* AppDelegate.m */; };
 		7294EAEA1880338D00F614D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7294EAE81880338D00F614D5 /* Main.storyboard */; };
-		7294EAED1880338D00F614D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EAEC1880338D00F614D5 /* ViewController.m */; };
 		7294EAEF1880338D00F614D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7294EAEE1880338D00F614D5 /* Images.xcassets */; };
 		7294EAF61880338D00F614D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7294EAF51880338D00F614D5 /* XCTest.framework */; };
 		7294EAF71880338D00F614D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7294EAD61880338D00F614D5 /* Foundation.framework */; };
 		7294EAF81880338D00F614D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7294EADA1880338D00F614D5 /* UIKit.framework */; };
 		7294EB001880338D00F614D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7294EAFE1880338D00F614D5 /* InfoPlist.strings */; };
 		7294EB021880338D00F614D5 /* Wheely_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EB011880338D00F614D5 /* Wheely_TestTests.m */; };
+		7294EB0D188034E000F614D5 /* WTMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EB0C188034E000F614D5 /* WTMainTableViewController.m */; };
+		7294EB10188035C600F614D5 /* Wheely_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7294EB0E188035C600F614D5 /* Wheely_Test.xcdatamodeld */; };
+		7294EB18188036A900F614D5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7294EB17188036A900F614D5 /* CoreData.framework */; };
+		7294EB1B1880383900F614D5 /* WTNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EB1A1880383900F614D5 /* WTNetworkManager.m */; };
+		7294EB1F188038B700F614D5 /* WTNetworkManager+Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EB1E188038B700F614D5 /* WTNetworkManager+Foundation.m */; };
+		7294EB2B1880571100F614D5 /* WTCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EB2A1880571100F614D5 /* WTCoordinator.m */; };
+		7294EB311880693E00F614D5 /* WTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EB301880693E00F614D5 /* WTDetailViewController.m */; };
+		7294EB3E1882FB5100F614D5 /* WTRoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EB3D1882FB5100F614D5 /* WTRoundView.m */; };
+		7294EB4718842E3100F614D5 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EB4618842E3100F614D5 /* Item.m */; };
+		7294EB571884730300F614D5 /* WTMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7294EB561884730300F614D5 /* WTMainCell.m */; };
+		7294EB5E1885DE4B00F614D5 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7294EB5C1885DE4B00F614D5 /* arrow.png */; };
+		7294EB5F1885DE4B00F614D5 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7294EB5D1885DE4B00F614D5 /* arrow@2x.png */; };
+		E3AAABEB34314F1E8DC685F8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 294080214B694DD4BCBCE69B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02C06B46649B4B1DB0B2E274 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		294080214B694DD4BCBCE69B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7294EAD31880338D00F614D5 /* Wheely_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheely_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7294EAD61880338D00F614D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7294EAD81880338D00F614D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +59,32 @@
 		7294EAE51880338D00F614D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7294EAE61880338D00F614D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7294EAE91880338D00F614D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7294EAEB1880338D00F614D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7294EAEC1880338D00F614D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7294EAEE1880338D00F614D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7294EAF41880338D00F614D5 /* Wheely_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wheely_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7294EAF51880338D00F614D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7294EAFD1880338D00F614D5 /* Wheely_TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wheely_TestTests-Info.plist"; sourceTree = "<group>"; };
 		7294EAFF1880338D00F614D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7294EB011880338D00F614D5 /* Wheely_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wheely_TestTests.m; sourceTree = "<group>"; };
+		7294EB0B188034E000F614D5 /* WTMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMainTableViewController.h; sourceTree = "<group>"; };
+		7294EB0C188034E000F614D5 /* WTMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMainTableViewController.m; sourceTree = "<group>"; };
+		7294EB0F188035C600F614D5 /* Wheely_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wheely_Test.xcdatamodel; sourceTree = "<group>"; };
+		7294EB17188036A900F614D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7294EB191880383900F614D5 /* WTNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTNetworkManager.h; path = NetworkManager/WTNetworkManager.h; sourceTree = "<group>"; };
+		7294EB1A1880383900F614D5 /* WTNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTNetworkManager.m; path = NetworkManager/WTNetworkManager.m; sourceTree = "<group>"; };
+		7294EB1D188038B700F614D5 /* WTNetworkManager+Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WTNetworkManager+Foundation.h"; path = "NetworkManager/WTNetworkManager+Foundation.h"; sourceTree = "<group>"; };
+		7294EB1E188038B700F614D5 /* WTNetworkManager+Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WTNetworkManager+Foundation.m"; path = "NetworkManager/WTNetworkManager+Foundation.m"; sourceTree = "<group>"; };
+		7294EB291880571100F614D5 /* WTCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTCoordinator.h; path = NetworkManager/WTCoordinator.h; sourceTree = "<group>"; };
+		7294EB2A1880571100F614D5 /* WTCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTCoordinator.m; path = NetworkManager/WTCoordinator.m; sourceTree = "<group>"; };
+		7294EB2F1880693E00F614D5 /* WTDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTDetailViewController.h; sourceTree = "<group>"; };
+		7294EB301880693E00F614D5 /* WTDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTDetailViewController.m; sourceTree = "<group>"; };
+		7294EB3C1882FB5100F614D5 /* WTRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTRoundView.h; path = RoundView/WTRoundView.h; sourceTree = "<group>"; };
+		7294EB3D1882FB5100F614D5 /* WTRoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTRoundView.m; path = RoundView/WTRoundView.m; sourceTree = "<group>"; };
+		7294EB4518842E3100F614D5 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = model/Item.h; sourceTree = "<group>"; };
+		7294EB4618842E3100F614D5 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = model/Item.m; sourceTree = "<group>"; };
+		7294EB551884730300F614D5 /* WTMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTMainCell.h; path = cells/WTMainCell.h; sourceTree = "<group>"; };
+		7294EB561884730300F614D5 /* WTMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTMainCell.m; path = cells/WTMainCell.m; sourceTree = "<group>"; };
+		7294EB5C1885DE4B00F614D5 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		7294EB5D1885DE4B00F614D5 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +92,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7294EB18188036A900F614D5 /* CoreData.framework in Frameworks */,
 				7294EAD91880338D00F614D5 /* CoreGraphics.framework in Frameworks */,
 				7294EADB1880338D00F614D5 /* UIKit.framework in Frameworks */,
 				7294EAD71880338D00F614D5 /* Foundation.framework in Frameworks */,
+				E3AAABEB34314F1E8DC685F8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +120,7 @@
 				7294EAFB1880338D00F614D5 /* Wheely_TestTests */,
 				7294EAD51880338D00F614D5 /* Frameworks */,
 				7294EAD41880338D00F614D5 /* Products */,
+				02C06B46649B4B1DB0B2E274 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +136,12 @@
 		7294EAD51880338D00F614D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7294EB17188036A900F614D5 /* CoreData.framework */,
 				7294EAD61880338D00F614D5 /* Foundation.framework */,
 				7294EAD81880338D00F614D5 /* CoreGraphics.framework */,
 				7294EADA1880338D00F614D5 /* UIKit.framework */,
 				7294EAF51880338D00F614D5 /* XCTest.framework */,
+				294080214B694DD4BCBCE69B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +149,20 @@
 		7294EADC1880338D00F614D5 /* Wheely_Test */ = {
 			isa = PBXGroup;
 			children = (
+				7294EB5B1885DE4B00F614D5 /* respurces */,
+				7294EB4B1884601400F614D5 /* customCells */,
+				7294EB3B1882F8FC00F614D5 /* RoundCornersView */,
 				7294EAE51880338D00F614D5 /* AppDelegate.h */,
 				7294EAE61880338D00F614D5 /* AppDelegate.m */,
 				7294EAE81880338D00F614D5 /* Main.storyboard */,
-				7294EAEB1880338D00F614D5 /* ViewController.h */,
-				7294EAEC1880338D00F614D5 /* ViewController.m */,
+				7294EB0E188035C600F614D5 /* Wheely_Test.xcdatamodeld */,
+				7294EB4518842E3100F614D5 /* Item.h */,
+				7294EB4618842E3100F614D5 /* Item.m */,
+				7294EB1C1880384400F614D5 /* NetworkManager */,
+				7294EB0B188034E000F614D5 /* WTMainTableViewController.h */,
+				7294EB0C188034E000F614D5 /* WTMainTableViewController.m */,
+				7294EB2F1880693E00F614D5 /* WTDetailViewController.h */,
+				7294EB301880693E00F614D5 /* WTDetailViewController.m */,
 				7294EAEE1880338D00F614D5 /* Images.xcassets */,
 				7294EADD1880338D00F614D5 /* Supporting Files */,
 			);
@@ -152,6 +198,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7294EB1C1880384400F614D5 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				7294EB191880383900F614D5 /* WTNetworkManager.h */,
+				7294EB1A1880383900F614D5 /* WTNetworkManager.m */,
+				7294EB1D188038B700F614D5 /* WTNetworkManager+Foundation.h */,
+				7294EB1E188038B700F614D5 /* WTNetworkManager+Foundation.m */,
+				7294EB291880571100F614D5 /* WTCoordinator.h */,
+				7294EB2A1880571100F614D5 /* WTCoordinator.m */,
+			);
+			name = NetworkManager;
+			sourceTree = "<group>";
+		};
+		7294EB3B1882F8FC00F614D5 /* RoundCornersView */ = {
+			isa = PBXGroup;
+			children = (
+				7294EB3C1882FB5100F614D5 /* WTRoundView.h */,
+				7294EB3D1882FB5100F614D5 /* WTRoundView.m */,
+			);
+			name = RoundCornersView;
+			sourceTree = "<group>";
+		};
+		7294EB4B1884601400F614D5 /* customCells */ = {
+			isa = PBXGroup;
+			children = (
+				7294EB551884730300F614D5 /* WTMainCell.h */,
+				7294EB561884730300F614D5 /* WTMainCell.m */,
+			);
+			name = customCells;
+			sourceTree = "<group>";
+		};
+		7294EB5B1885DE4B00F614D5 /* respurces */ = {
+			isa = PBXGroup;
+			children = (
+				7294EB5C1885DE4B00F614D5 /* arrow.png */,
+				7294EB5D1885DE4B00F614D5 /* arrow@2x.png */,
+			);
+			path = respurces;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7294EB051880338D00F614D5 /* Build configuration list for PBXNativeTarget "Wheely_Test" */;
 			buildPhases = (
+				E7F81F87B95944F38642C28E /* Check Pods Manifest.lock */,
 				7294EACF1880338D00F614D5 /* Sources */,
 				7294EAD01880338D00F614D5 /* Frameworks */,
 				7294EAD11880338D00F614D5 /* Resources */,
+				3AB9EE98BEAF4D859C8EBC06 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,8 +317,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7294EAEF1880338D00F614D5 /* Images.xcassets in Resources */,
+				7294EB5F1885DE4B00F614D5 /* arrow@2x.png in Resources */,
 				7294EAE11880338D00F614D5 /* InfoPlist.strings in Resources */,
 				7294EAEA1880338D00F614D5 /* Main.storyboard in Resources */,
+				7294EB5E1885DE4B00F614D5 /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +334,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AB9EE98BEAF4D859C8EBC06 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F81F87B95944F38642C28E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7294EACF1880338D00F614D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7294EAED1880338D00F614D5 /* ViewController.m in Sources */,
+				7294EB0D188034E000F614D5 /* WTMainTableViewController.m in Sources */,
+				7294EB3E1882FB5100F614D5 /* WTRoundView.m in Sources */,
+				7294EB10188035C600F614D5 /* Wheely_Test.xcdatamodeld in Sources */,
+				7294EB2B1880571100F614D5 /* WTCoordinator.m in Sources */,
 				7294EAE71880338D00F614D5 /* AppDelegate.m in Sources */,
 				7294EAE31880338D00F614D5 /* main.m in Sources */,
+				7294EB4718842E3100F614D5 /* Item.m in Sources */,
+				7294EB1B1880383900F614D5 /* WTNetworkManager.m in Sources */,
+				7294EB1F188038B700F614D5 /* WTNetworkManager+Foundation.m in Sources */,
+				7294EB311880693E00F614D5 /* WTDetailViewController.m in Sources */,
+				7294EB571884730300F614D5 /* WTMainCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +449,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ira Ira (4PB5DXXLCR)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -336,6 +467,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "055A56D2-D3EE-4F07-9115-FDD098F09733";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -357,7 +489,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ira Ira (4PB5DXXLCR)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -368,6 +500,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "055A56D2-D3EE-4F07-9115-FDD098F09733";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -375,6 +508,7 @@
 		};
 		7294EB061880338D00F614D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C06B46649B4B1DB0B2E274 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,6 +522,7 @@
 		};
 		7294EB071880338D00F614D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C06B46649B4B1DB0B2E274 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -460,6 +595,7 @@
 				7294EB071880338D00F614D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7294EB081880338D00F614D5 /* Build configuration list for PBXNativeTarget "Wheely_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,8 +604,23 @@
 				7294EB0A1880338D00F614D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7294EB0E188035C600F614D5 /* Wheely_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7294EB0F188035C600F614D5 /* Wheely_Test.xcdatamodel */,
+			);
+			currentVersion = 7294EB0F188035C600F614D5 /* Wheely_Test.xcdatamodel */;
+			name = Wheely_Test.xcdatamodeld;
+			path = model/Wheely_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7294EACB1880338D00F614D5 /* Project object */;
 }
